@@ -1,0 +1,13 @@
+//font
+$font: 'Roboto', sans-serif;
+$fontSize: 14px;
+$fontH1: $fontSize * 1.2;
+
+//colors
+$colorOne: white;
+$colorTwo: darken($colorOne, 50);
+$colorBackgroundDark: black;
+$colorBackground: lighten($colorBackgroundDark, 10);
+
+//size
+$widthContainer: 80%;

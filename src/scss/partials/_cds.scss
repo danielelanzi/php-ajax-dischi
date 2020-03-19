@@ -1,0 +1,19 @@
+.cds {
+  display: flex;
+  flex-wrap: wrap;
+  .cd {
+    flex-basis: 25%;
+    text-align: center;
+    padding: 15px;
+    margin: 15px 30px;
+    background-color: $colorBackgroundDark;
+    &-image {
+      display: block;
+      width: 80%;
+      margin: auto;
+    }
+    &-author {
+      color: $colorTwo;
+    }
+  }
+}
